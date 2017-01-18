@@ -1,0 +1,1 @@
+onClick="document.location.href='index.php';"

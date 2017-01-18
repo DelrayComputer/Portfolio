@@ -1,0 +1,184 @@
+<html lang="en">
+
+<head>
+
+<meta charset="utf-8">
+
+<title>test</title>
+
+<style type="text/css">
+
+
+.plan-collection-bot{
+	
+    background: url(http://delraycomputer.com/images/triangle-lightgrey-bot.png) center bottom repeat-x;
+    padding: 0 0 6px 0;
+	
+	float: left;
+} 
+
+.plan-collection-in{
+	background: #f1f0ee;
+    padding: 5px 20px;
+  font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    line-height: 21px;
+	position: relative;
+	cursor:pointer;
+}
+span.plan-off-ribbon{
+	width: 45px;
+	height: 55px;
+	position: absolute;
+	top: -3px;
+	right: 10px;
+	display: inline-block;
+}
+
+h3.plan-collection-top{
+	 font-size: 20px;
+    line-height: 0px;
+
+    padding: 0 0 15px 0;
+    margin: 0;
+    border-bottom: 1px dotted #c8c8c8;
+    text-align: center;
+    text-shadow: 0px 1px 0px #fff;
+}
+h3.plan-collection-top a:link,
+h3.plan-collection-top a:visited{
+	color: #4B4B4B;
+}
+h3.plan-collection-top a:hover{
+	color: #000;
+    text-decoration:none;
+	}
+/*	
+div.plan-collection-in:hover h3.plan-collection-top {
+    color: #f7521c;
+  -webkit-transition: color 0.2s ease-in;
+  -moz-transition: color 0.2s ease-in;
+  -o-transition: color 0.2s ease-in;
+  transition: color 0.2s ease-in;
+  
+}
+*/
+span.plan-collection-icon {
+    display: inline-block;
+    width: 106px;
+    height: 106px;
+    margin: 0 0 15px 0;
+}
+.plan-collection-content{
+	border-top: 1px dotted #fff;
+	border-bottom: 1px dotted #c8c8c8;
+    padding: 8px 0;
+	text-align: center;
+}
+
+.plan-collection-buy{
+	border-top: 1px dotted #fff;
+    padding: 15px 0 0 0;
+}
+.plan-collection-buy .cat-addtocart-out{
+	
+	margin: 0;
+	text-align: center;
+	padding: 4px 5px;
+}
+/*
+div.plan-collection-in.proplan span.plan-off-ribbon{
+	background: url(../images/off-prices.png) -135px 0 no-repeat;
+}
+*/
+div.plan-collection-in.liteplan span.plan-collection-icon {
+    background: url(http://delraycomputer.com/images/plantypes.png) 0px -353px no-repeat;
+}
+
+div.plan-collection-in.liteplan:hover span.plan-collection-icon, .lite_selected{
+    background: url(http://delraycomputer.com/images/plantypes.png) 0px -237px no-repeat !important;
+}
+
+div.plan-collection-in.proplan span.plan-collection-icon {
+    background: url(http://delraycomputer.com/images/plantypes.png) 0px -585px no-repeat;
+}
+div.plan-collection-in.proplan:hover span.plan-collection-icon, .pro_selected{
+    background: url(http://delraycomputer.com/images/plantypes.png) 0px -469px no-repeat !important;
+}
+div.plan-collection-in.customplan span.plan-collection-icon {
+    background: url(http://delraycomputer.com/images/plantypes.png) 0px 0px no-repeat;
+}
+
+div.plan-collection-in.customplan:hover span.plan-collection-icon ,.enterprise_selected{
+    background: url(http://delraycomputer.com/images/plantypes.png) 0px -119px no-repeat !important;
+}
+
+</style>
+
+<body>
+
+<div class="">
+
+			<div class="span3 plan-collection-bot clearfix"
+				style="margin-left: 0px;">
+				<div class="plan-collection-in liteplan">
+					<span class="plan-off-ribbon"></span>
+					<h3 class="plan-collection-top">
+						<span class="plan-collection-icon"></span><br> <span
+							title="Lite Plan" id="plan_name">Lite</span>
+					</h3>
+					<div class="plan-collection-content" id="litepricebox">
+						<div id="lite_plan_price_content">
+							<span style="color: #FA782D; font-size: 30px;">$<span
+								id="lite_plan_price">12.74</span></span> <br> <span
+								style="color: #999">per month/agent</span>
+						</div>
+					</div>
+					<div class="plan-collection-content" id="lite_plan_statement">
+						For new companies just getting started with live chat and tickets
+					</div>
+					<div class="plan-collection-buy">
+						<div class="cat-addtocart-out">
+							<div class="cat-addtocart" id="lite_buy_btn">
+								<input type="radio" name="pro_vs_lite" value="lite"
+									class="djc_addtocart_link" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="span3 plan-collection-bot clearfix">
+				<div class="plan-collection-in proplan">
+					<span class="plan-off-ribbon"></span>
+					<h3 class="plan-collection-top">
+						<span class="plan-collection-icon pro_selected"></span><br> <span
+							title="Pro Plan" id="plan_name">Pro</span>
+					</h3>
+					<div class="plan-collection-content" id="propricebox">
+						<div id="pro_plan_price_content">
+							<span style="color: #FA782D; font-size: 30px;">$<span
+								id="pro_plan_price">21.24</span></span> <br> <span
+								style="color: #999">per month/agent</span>
+						</div>
+					</div>
+					<div class="plan-collection-content" id="pro_plan_statement">
+						Full feature packed - for fast growing and established companies</div>
+
+					<div class="plan-collection-buy">
+						<div class="cat-addtocart-out">
+							<div class="cat-addtocart" id="pro_buy_btn">
+								<input type="radio" name="pro_vs_lite" value="pro"
+									class="djc_addtocart_link" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+</body>
+
+</html>
+
+

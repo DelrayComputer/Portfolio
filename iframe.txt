@@ -1,0 +1,1 @@
+<iframe src="newsshortsignup.html" width="440" scrolling="no" seamless="seamless"></iframe>
